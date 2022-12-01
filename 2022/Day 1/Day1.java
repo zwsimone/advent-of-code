@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Part1
  */
-public class Part1 {
+public class Day1 {
 
     public static void main(String[] args) {
         try {
