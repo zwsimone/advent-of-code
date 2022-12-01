@@ -43,12 +43,6 @@ public class Day1 {
         }
     }
 
-    private static int findTotalCaloriesOfTopThreeElves(List<Integer> elves) {
-        Collections.sort(elves, Collections.reverseOrder());
-        int totalCaloriesOfTopThreeElves = elves.get(0) + elves.get(1) + elves.get(2);
-        return totalCaloriesOfTopThreeElves;
-    }
-
     // Part 1
     private static int findMaxCaloriesFromElves(List<Integer> elves) {
         int max = 0;
@@ -59,6 +53,11 @@ public class Day1 {
         }
         return max;
     }
-
+    
     // Part 2
+    private static int findTotalCaloriesOfTopThreeElves(List<Integer> elves) {
+        Collections.sort(elves, Collections.reverseOrder());
+        int totalCaloriesOfTopThreeElves = elves.get(0) + elves.get(1) + elves.get(2);
+        return totalCaloriesOfTopThreeElves;
+    }
 }
