@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Day1 {
+public class DayOne2022 {
 
     public static void main(String[] args) {
         try {
