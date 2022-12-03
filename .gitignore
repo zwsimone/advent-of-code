@@ -1,1 +1,6 @@
+# Typescript
 **/node_modules
+
+# C#
+**/bin
+**/obj
