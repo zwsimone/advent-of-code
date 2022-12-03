@@ -1,0 +1,8 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "2022/Day 2/DayTwo2022.js",
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  }
+}
