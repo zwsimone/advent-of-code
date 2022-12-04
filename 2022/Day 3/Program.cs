@@ -1,4 +1,5 @@
-﻿namespace DayThree2022;
+﻿using static CSharpHelpers.FileHelper;
+namespace DayThree2022;
 class Program
 {
     public static void Main(string[] args)
@@ -14,28 +15,6 @@ class Program
 
         int prioritySum = GetPrioritySum(sharedBadges);
         Console.WriteLine("Total sum of priority is {0}", prioritySum);
-    }
-
-    public static List<String> GetListFromFile(string path)
-    {
-        List<string> stringList = new List<string>();
-        if (File.Exists(path))
-        {
-            using (StreamReader inputReader = File.OpenText(path))
-            {
-                string line = inputReader.ReadLine();
-                while (line != null)
-                {
-                    stringList.Add(line);
-                    line = inputReader.ReadLine();
-                }
-            }
-        }
-        else
-        {
-            throw new FileNotFoundException("File not found.");
-        }
-        return stringList;
     }
 
     public static List<char> GetSharedItems(List<string> input)
