@@ -1,5 +1,6 @@
 # Typescript
 **/node_modules
+*.js
 
 # C#
 **/bin
