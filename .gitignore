@@ -1,7 +1,14 @@
+# Monolith project
+**/.vscode
+**/.idea
+
 # Typescript
 **/node_modules
 *.js
 
-# C#
+# C# & F#
 **/bin
 **/obj
+
+# Kotlin
+**/lib
